@@ -1,36 +1,33 @@
-## Fullstack Training for CSIT 4th semester
+Strong:
+<strong></strong>
 
-To check whether git is installed: 
-git --version
+Italic:
+<em></em>
 
-To add user config:
-git config --global user.name "Diwas KC"
-git config --global user.email "diwaskc12@gmail.com"
+Html Comments:
+<!-- -->
 
-To check whether config are set:
-git config --list
+### Unordered List
+    <ul>
+        <li>The Fablesman</li>
+        <li>Aftersun</li>
+        <li>Everything Everywhere All at once</li>
+    </ul>
 
-To exit editor:
-:q
+### Ordered List
+    <ol>
+        <li>John</li>
+        <li>Pat</li>
+    </ol>
 
-To initialize git in your project:
-git init
+### Absolute Links
+<a href="https://instagram.com">Instagram</a>
 
-To check status of your project:
-git status
+### Relative Links
+<a href="./about.html">About</a>
 
-To add file:
-git add Readme.md
-
-To commit:
-git commit -m "readme file created"
-
-
-To create branch:
-git branch "html-foundations"
-
-To list branches:
-git branch
-
-To checkout branch:
-git checkout "html-foundations"
+### Images
+    <img src="https://variety.com/wp-content/uploads/2022/11/CK52475_00196_35_NEG_N_COL_ORIG_V001-Photo-Credit-Jill-Greenberg-e1667974334479.jpg"
+        width="400" height="400">
+        
+    <img src="./images/1294426.png" width="600" alt="Character from chainsaw man">
