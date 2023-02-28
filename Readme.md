@@ -25,3 +25,12 @@ git add Readme.md
 To commit:
 git commit -m "readme file created"
 
+
+To create branch:
+git branch "html-foundations"
+
+To list branches:
+git branch
+
+To checkout branch:
+git checkout "html-foundations"
