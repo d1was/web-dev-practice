@@ -1,0 +1,55 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/paisley.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.project {
+    text-transform: lowercase;
+}
+
+* {
+    color: violet;
+}
+
+.success-message {
+    border: 20px solid hsl(120, 100%, 25%);
+    padding: 50px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.error-message {
+    border: 2px solid hsl(120, 100%, 25%);
+}
+
+.success-message,
+.error-message {
+    color: gray;
+    background-color: seashell;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+}
+
+.message.success-message {
+    border: 2px solid goldenrod;
+}
+
+
+header .item {
+    text-decoration: underline;
+}

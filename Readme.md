@@ -1,27 +1,40 @@
-## Fullstack Training for CSIT 4th semester
+    background-color: seashell;
+### CSS Overview
 
-To check whether git is installed: 
-git --version
+#### Element Selector
+h1 {
 
-To add user config:
-git config --global user.name "Diwas KC"
-git config --global user.email "diwaskc12@gmail.com"
+}
 
-To check whether config are set:
-git config --list
+#### Class Selector
+.project {
 
-To exit editor:
-:q
+}
 
-To initialize git in your project:
-git init
+### Universal Selector
+* {
 
-To check status of your project:
-git status
+}
 
-To add file:
-git add Readme.md
+### ID Selector
+#project1 {
 
-To commit:
-git commit -m "readme file created"
+}
 
+### Grouping Selectors
+.success-message, .error-message {
+
+}
+
+### Chaining Selectors
+
+.message.success-message {
+
+}
+
+
+### Typography
+text-align: center, left,right;
+
+
+www.subtlepatterns.com
