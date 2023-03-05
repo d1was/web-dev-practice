@@ -25,3 +25,19 @@ git add Readme.md
 To commit:
 git commit -m "readme file created"
 
+To see your saved history:
+git log
+
+To ignore certain files, we create .gitignore file and add name of the file to them.
+
+To see all remote site:
+git remote
+
+To add remote:
+git remote add origin https://github.com/d1was/web-dev-practice.git
+
+To upload our local code to remote:
+git push origin master
+
+
+
